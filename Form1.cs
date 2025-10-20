@@ -17,9 +17,19 @@ namespace Aleksey_PR07_GIT
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            if (IsValidUser(textBox1.Text,textBox2.Text))
+            {
+                Form2 form2 = new Form2();
+                form2.Show();
+                this.Hide();
+            }
+        }
 
+        private bool IsValidUser(string login, string password)
+        {
+            return login == "admin" && password == "admin";
         }
     }
 }
