@@ -113,7 +113,7 @@
             this.Font = new System.Drawing.Font("Arial", 14F);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "PR07";
+            this.Text = "  ";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -16,5 +16,10 @@ namespace Aleksey_PR07_GIT
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = Convert.ToString(DateTime.Now); 
+        }
     }
 }
