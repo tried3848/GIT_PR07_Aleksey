@@ -63,6 +63,16 @@ namespace Aleksey_PR07_GIT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gus {
+            get {
+                object obj = ResourceManager.GetObject("gus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap saul__1_ {
             get {
                 object obj = ResourceManager.GetObject("saul (1)", resourceCulture);
