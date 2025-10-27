@@ -21,6 +21,7 @@ namespace Aleksey_PR07_GIT
         {
             if (IsValidUser(textBox1.Text,textBox2.Text))
             {
+                MessageBox.Show("Hello");
                 Form2 form2 = new Form2();
                 form2.Show();
                 this.Hide();
